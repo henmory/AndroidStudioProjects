@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.henmory.navigationdraw.Main6Activity">
+    <!--Toolbar如果想侧滑栏不盖住toolbar，那么把它与drawerlayout并列，设置父容器vertical，如果想盖住toolbar，把它放到drawerlayout
+        里面，并设置toolbar的父容器vertical-->
+    <!--<include layout="@layout/custom_toolbar" />-->
+    <!--DrawerLayout-->
+    <include layout="@layout/custom_drawerlayout" />
+</LinearLayout>
